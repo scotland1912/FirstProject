@@ -6,7 +6,7 @@ public class Timer : MonoBehaviour
     
     public TextMeshProUGUI timerText;
     private float _elapsedTime;
-    private bool _isRunning = false;
+    private bool _isRunning;
     
     public void StartTimer()
     {
